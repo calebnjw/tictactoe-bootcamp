@@ -1,3 +1,36 @@
 body {
   background-color: pink;
+
+  font-family: sans-serif;
+}
+
+.board {
+  padding: none;
+}
+
+.square {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+
+  background-color: white;
+  border: 3px solid black;
+  text-align: center;
+
+  font-size: 35px;
+
+  height: 80px;
+  width: 80px;
+
+  padding: 10px;
+}
+
+button {
+  margin: 20px;
+}
+
+.output-div {
+  font-size: 200px;
+
+  margin-left: 20px;
 }
