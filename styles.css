@@ -2,6 +2,8 @@ body {
   background-color: pink;
 
   font-family: sans-serif;
+
+  padding: 10px 50px;
 }
 
 .board {
@@ -26,7 +28,12 @@ body {
 }
 
 button {
-  margin: 20px;
+  font-size: 20px;
+
+  width: 100px;
+  height: 40px;
+
+  margin: 20px 0px;
 }
 
 .output-div {
